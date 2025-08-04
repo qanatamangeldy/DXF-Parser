@@ -3,13 +3,7 @@
 from openpyxl import Workbook
 
 def write_to_excel(data_list, output_file="output.xlsx"):
-    """
-    Записывает собранные данные в файл Excel.
 
-    Args:
-        data_list (list): Список словарей с данными по каждому чертежу.
-        output_file (str): Имя выходного файла Excel.
-    """
     wb = Workbook()
     ws = wb.active
     ws.title = "Спецификация трубопроводов"

@@ -5,10 +5,7 @@ from excel_writer import write_to_excel
 import pandas as pd
 
 def main():
-    """
-    Главная функция для запуска процесса.
-    """
-    dxf_directory = "./"  # Укажи путь к твоей папке с чертежами
+    dxf_directory = "./"  # Указывем путь к папке с чертежами
     all_data = []
 
     # Проверяем, существует ли директория
